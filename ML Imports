@@ -11,6 +11,7 @@ from sklearn.model_selection import train_test_split   # to split train/test or 
 from sklearn.preprocessing import StandardScaler       # to scale features (for linear models)
 from sklearn.preprocessing import LabelEncoder         # to convert labels into integers (for ordered categorical)
 from sklearn.preprocessing import OneHotEncoder        # to one-hot encode features (used inside pipelines)
+from sklearn.model_selection import GridSearchCV       # to make a parameter grid do decide on values
 
 ### Models (Scikit-learn)
 from sklearn.linear_model import LinearRegression      # regression model for continuous outputs
